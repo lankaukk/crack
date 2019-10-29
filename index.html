@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Crack</title>
+
+		<link href="styles.css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="favicon.png">
+
+	</head>
+<body>
+
+<div class="videobox">
+  <video autoplay controls loop>
+    <source src="screentime1.mp4" type="video/mp4">
+  </video>
+<br>
+	<video autoplay controls loop>
+    <source src="screentime2.mp4" type="video/mp4">
+  </video>
+<br>
+	<video autoplay controls loop>
+    <source src="screentime3.mp4" type="video/mp4">
+  </video>
+
+</div>
+
+
+
+</body>
+
+<object id="mysvg" type="image/svg+xml" data="glass_widescreen_animated.svg"></object>
+
+<script>
+	new Vivus('mysvg', { duration: 200 }, myCallback);
+</script>
+
+
+
+<object id="myphonesvg" type="image/svg+xml" data="glass_iphone_animated.svg"></object>
+
+<script>
+	new Vivus('mysvg', { duration: 200 }, myCallback);
+</script>
+
+</html>

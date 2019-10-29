@@ -1,0 +1,99 @@
+* {
+  font-family: sans-serif;
+}
+
+body{
+  background-color: black;
+}
+
+h2, h5 {
+  color: white;
+  text-align: center;
+}
+
+video {
+  outline: 2px solid white;
+}
+
+h2 {
+  position: absolute;
+  top: 35vh;
+}
+
+h5{
+  position: absolute;
+  top: 40vh;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+  body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  video {
+    height: 100vh;
+    position: relative;
+    display: inline;
+    margin: 5vw;
+  }
+  .videobox {
+    position: absolute;
+    top: 10vh;
+  }
+
+  #mysvg {
+    z-index: -1;
+    position: fixed;
+    top:-5vh;
+    left:-15vw;
+    transform: scale(1.1);
+  }
+
+  #myphonesvg {
+    display: none;
+    opacity: 0;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 70px;
+  }
+  video {
+    max-width: 75vw;
+    position: relative;
+    display: inline;
+    align-items: center;
+  }
+  .videobox {
+    position: absolute;
+    top: 10vh;
+    left: 10%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  #mysvg {
+    display: none;
+    opacity: 0;
+  }
+
+  #myphonesvg {
+    z-index: -1;
+    position: fixed;
+    top:-5vh;
+    left:-15vw;
+  }
+
+
+}
+
+
+
+
+
+svg {width: auto; height: auto;}
