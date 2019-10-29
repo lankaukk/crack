@@ -80,17 +80,22 @@ h5{
   }
 
   #mysvg {
-    display: none;
-    opacity: 0;
-  }
-
-  #myphonesvg {
+    /* display: none;
+    opacity: 0; */
     z-index: -1;
     position: fixed;
     top:-5vh;
     left:-15vw;
+    transform: scale(1.5);
+  }
+
+  #myphonesvg {
+    /* z-index: -1;
+    position: fixed;
+    top:-5vh;
+    left:-15vw;
     transform: rotate(deg);
-    transform: scale(1);
+    transform: scale(1); */
 
   }
 
