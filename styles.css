@@ -89,8 +89,8 @@ h5{
     position: fixed;
     top:-5vh;
     left:-15vw;
-    transform: rotate(90deg);
-    transform: scale(2);
+    transform: rotate(deg);
+    transform: scale(1);
 
   }
 
