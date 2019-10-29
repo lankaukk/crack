@@ -50,7 +50,7 @@ h5{
     left:-15vw;
 
 
-  
+
   }
 
   #myphonesvg {
@@ -89,6 +89,7 @@ h5{
     position: fixed;
     top:-5vh;
     left:-15vw;
+    transform: rotate(90deg);
 
   }
 
