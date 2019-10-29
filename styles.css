@@ -79,7 +79,7 @@ h5{
     display: inline-block;
   }
 
-  #mysvg {
+  #myphonesvg {
     /* display: none;
     opacity: 0; */
     z-index: -1;
@@ -87,15 +87,13 @@ h5{
     top:-5vh;
     left:-15vw;
     transform: scale(1.5);
+    width: auto;
+    height: auto;
   }
 
-  #myphonesvg {
-    /* z-index: -1;
-    position: fixed;
-    top:-5vh;
-    left:-15vw;
-    transform: rotate(deg);
-    transform: scale(1); */
+  #mysvg {
+    display: none;
+    opacity: 0;
 
   }
 
