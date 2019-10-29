@@ -90,6 +90,7 @@ h5{
     top:-5vh;
     left:-15vw;
     transform: rotate(90deg);
+    transform: scale(2);
 
   }
 
