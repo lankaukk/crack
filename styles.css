@@ -48,7 +48,9 @@ h5{
     position: fixed;
     top:-5vh;
     left:-15vw;
-    transform: scale(1.1);
+
+
+  
   }
 
   #myphonesvg {
@@ -87,13 +89,8 @@ h5{
     position: fixed;
     top:-5vh;
     left:-15vw;
+
   }
 
 
 }
-
-
-
-
-
-svg {width: auto; height: auto;}
